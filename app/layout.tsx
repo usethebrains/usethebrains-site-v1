@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import ThemeProviderWrapper from '@/components/theme/theme-provider-wrapper';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -12,8 +13,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="font-sans">{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`$font-sans antialiased h-full flex flex-col`}>
+        <ThemeProviderWrapper>
+          {children}
+        </ThemeProviderWrapper>
+      </body>
     </html>
   );
 }

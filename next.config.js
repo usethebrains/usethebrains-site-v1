@@ -3,7 +3,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  async redirects() {
+  async redirects()
+  {
     return [
       {
         source: '/course',
@@ -20,22 +21,10 @@ const nextConfig = {
       },
     ],
   },
-  webpack: (config, { isServer, dev }) => {
-    // Disable persistent cache to avoid file system issues
-    config.cache = false;
-
-    // Enhanced WebSocket configuration for development
-    if (!isServer && dev) {
-      config.watchOptions = {
-        ...config.watchOptions,
-        followSymlinks: false,
-        ignored: ['**/node_modules/**', '**/.git/**', '**/.next/**'],
-        aggregateTimeout: 200,
-        poll: 500,
-      };
-    }
-    return config;
-  },
+  allowedDevOrigins: [
+    "http://192.168.19.127:3000",
+    "http://localhost:3000"
+  ],
 }
 
 module.exports = nextConfig

@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import { useRouter } from "next/navigation";
 import { Card, CardContent } from "@/components/ui/card";
 import { CreateCourseForm } from "@/components/course-builder/create-course-form";
 
-export default function EditCoursePage({ params }: { params: { id: string } }) {
+export default function EditCoursePage(props: { params: Promise<{ id: string }> }) {
+  const params = use(props.params);
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(true);
   const [course, setCourse] = useState<any>(null);

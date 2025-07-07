@@ -1,0 +1,32 @@
+{
+  "communities": [
+    {
+      "id": "1",
+      "name": "JavaScript Developers",
+      "description": "A community for JavaScript developers to share knowledge and ask questions",
+      "bannerUrl": "https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg",
+      "memberCount": 156,
+      "category": "Programming",
+      "isPrivate": false,
+      "socialLinks": {
+        "twitter": "https://twitter.com/jsdevs",
+        "discord": "https://discord.gg/jsdevs",
+        "github": "https://github.com/jsdevs"
+      },
+      "admins": ["2"],
+      "moderators": ["3", "4"],
+      "members": ["5", "6", "7"],
+      "followers": ["8", "9", "10"],
+      "settings": {
+        "allowGuestPosts": false,
+        "requirePostApproval": true,
+        "allowMemberInvites": true
+      },
+      "stats": {
+        "totalPosts": 234,
+        "activeMembers": 45,
+        "weeklyGrowth": 12
+      }
+    }
+  ]
+}

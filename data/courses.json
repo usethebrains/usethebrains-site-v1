@@ -1,0 +1,257 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "JavaScript Fundamentals",
+      "description": "Master the core concepts of JavaScript programming with hands-on exercises and real-world projects. Perfect for beginners starting their programming journey.",
+      "thumbnail_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
+      "price": 49.99,
+      "is_free": false,
+      "category": "Web Development",
+      "subscription_required": "basic",
+      "instructor": {
+        "id": "2",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "avatar_url": "https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg",
+        "title": "Senior Web Developer",
+        "bio": "10+ years of industry experience in full-stack development",
+        "expertise": ["JavaScript", "React", "Node.js"],
+        "total_students": 15420,
+        "total_courses": 12,
+        "average_rating": 4.8
+      },
+      "level": "beginner",
+      "duration": {
+        "blended": "8 weeks",
+        "video": "24 hours",
+        "text": "12 hours",
+        "total_lessons": 48,
+        "total_modules": 8
+      },
+      "enrolled_count": 1256,
+      "completion_rate": 78,
+      "rating": 4.8,
+      "review_count": 325,
+      "progress": 0,
+      "last_updated": "2025-03-15",
+      "language": "English",
+      "subtitles": ["English", "Spanish"],
+      "prerequisites": [
+        "Basic computer skills",
+        "Understanding of HTML and CSS"
+      ],
+      "skills_gained": [
+        "JavaScript fundamentals",
+        "DOM manipulation",
+        "Async programming",
+        "Error handling"
+      ],
+      "certification": {
+        "available": true,
+        "accredited": true,
+        "validity": "Lifetime"
+      },
+      "support": {
+        "instructor_qa": true,
+        "community_access": true,
+        "office_hours": "Weekly",
+        "response_time": "24 hours"
+      },
+      "enrollment": {
+        "status": "open",
+        "deadline": "2025-12-31",
+        "max_students": 2000,
+        "available_seats": 744,
+        "batch_start": "2025-04-01"
+      },
+      "content": {
+        "modules": [
+          {
+            "title": "Introduction to JavaScript",
+            "duration": "2 weeks",
+            "completed": false,
+            "preview": true,
+            "objectives": [
+              "Understand JavaScript basics",
+              "Learn about variables and data types",
+              "Work with functions and control flow"
+            ],
+            "lessons": [
+              {
+                "title": "What is JavaScript?",
+                "type": "text",
+                "content": "JavaScript is a versatile programming language that powers the modern web. In this lesson, we'll explore its history, importance, and basic concepts that form the foundation of web development.\n\nKey Topics:\n- History of JavaScript\n- Role in web development\n- Basic syntax overview\n- Development environment setup",
+                "duration": "45 min",
+                "preview": true,
+                "resources": [
+                  {
+                    "type": "pdf",
+                    "title": "JavaScript Basics Guide",
+                    "url": "https://example.com/js-basics.pdf"
+                  }
+                ]
+              },
+              {
+                "title": "Variables and Data Types",
+                "type": "video",
+                "videoUrl": "https://www.youtube.com/embed/W6NZfCO5SIk",
+                "duration": "30 min",
+                "preview": true,
+                "transcript_available": true,
+                "downloadable": true
+              },
+              {
+                "title": "Working with Functions",
+                "type": "code",
+                "content": "// Basic function declaration\nfunction greet(name) {\n  return `Hello, ${name}!`;\n}\n\n// Arrow function example\nconst add = (a, b) => a + b;\n\n// Function with default parameters\nfunction multiply(a, b = 1) {\n  return a * b;\n}\n\n// Example usage\nconsole.log(greet('World')); // Hello, World!\nconsole.log(add(5, 3));      // 8\nconsole.log(multiply(4));     // 4",
+                "duration": "45 min",
+                "preview": false,
+                "exercises": [
+                  {
+                    "title": "Function Practice",
+                    "points": 10
+                  }
+                ]
+              },
+              {
+                "title": "JavaScript Basics Quiz",
+                "type": "quiz",
+                "duration": "20 min",
+                "preview": false,
+                "content": {
+                  "question": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
+                  "options": [
+                    {
+                      "id": "1",
+                      "text": "var x = 5;",
+                      "isCorrect": false
+                    },
+                    {
+                      "id": "2",
+                      "text": "let y = 10;",
+                      "isCorrect": false
+                    },
+                    {
+                      "id": "3",
+                      "text": "const z = 15;",
+                      "isCorrect": false
+                    },
+                    {
+                      "id": "4",
+                      "text": "variable w = 20;",
+                      "isCorrect": true
+                    }
+                  ],
+                  "explanation": "In JavaScript, variables can be declared using 'var', 'let', or 'const'. The keyword 'variable' is not a valid way to declare variables.",
+                  "points": 10,
+                  "showExplanation": true,
+                  "allowRetry": true,
+                  "timeLimit": 60,
+                  "passingScore": 80
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "title": "UI/UX Design Mastery",
+      "description": "Learn the principles of modern UI/UX design and create stunning user experiences. Master industry-standard tools and design systems while building a professional portfolio.",
+      "thumbnail_url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg",
+      "price": 0,
+      "is_free": true,
+      "category": "Design",
+      "subscription_required": "basic",
+      "instructor": {
+        "id": "2",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "avatar_url": "https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg",
+        "title": "Senior Web Developer & Course Creator",
+        "bio": "Award-winning designer with experience at top tech companies",
+        "expertise": ["UI Design", "UX Research", "Design Systems"],
+        "total_students": 8750,
+        "total_courses": 5,
+        "average_rating": 4.9
+      },
+      "level": "intermediate",
+      "duration": {
+        "blended": "10 weeks",
+        "video": "30 hours",
+        "text": "15 hours",
+        "total_lessons": 60,
+        "total_modules": 10
+      },
+      "enrolled_count": 875,
+      "completion_rate": 82,
+      "rating": 4.9,
+      "review_count": 245,
+      "progress": 0,
+      "last_updated": "2025-03-18",
+      "language": "English",
+      "subtitles": ["English", "French", "Spanish"],
+      "prerequisites": [
+        "Basic design knowledge",
+        "Familiarity with design tools"
+      ],
+      "skills_gained": [
+        "UI Design principles",
+        "User research",
+        "Prototyping",
+        "Design systems"
+      ],
+      "certification": {
+        "available": true,
+        "accredited": true,
+        "validity": "Lifetime"
+      },
+      "support": {
+        "instructor_qa": true,
+        "community_access": true,
+        "office_hours": "Bi-weekly",
+        "response_time": "24 hours"
+      },
+      "enrollment": {
+        "status": "open",
+        "deadline": "2025-12-31",
+        "max_students": 1000,
+        "available_seats": 125,
+        "batch_start": "2025-04-15"
+      },
+      "content": {
+        "modules": [
+          {
+            "title": "Design Fundamentals",
+            "duration": "2 weeks",
+            "completed": false,
+            "preview": false,
+            "objectives": [
+              "Understand design principles",
+              "Master color theory",
+              "Learn typography basics"
+            ],
+            "lessons": [
+              {
+                "title": "Introduction to UI/UX",
+                "type": "video",
+                "videoUrl": "https://www.youtube.com/embed/example1",
+                "duration": "45 min",
+                "preview": false
+              },
+              {
+                "title": "Color Theory in Practice",
+                "type": "text",
+                "content": "Learn how to use color effectively in your designs...",
+                "duration": "30 min",
+                "preview": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

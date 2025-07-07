@@ -1,0 +1,94 @@
+{
+  "categories": [
+    {
+      "title": "Getting Started",
+      "icon": "Book",
+      "articles": [
+        {
+          "title": "Creating your account",
+          "href": "/help/articles/creating-account",
+          "lastUpdated": "2025-03-15",
+          "content": "Creating an account on LearnSphere is quick and easy. Follow these steps to get started..."
+        },
+        {
+          "title": "Platform overview",
+          "href": "/help/articles/platform-overview",
+          "lastUpdated": "2025-03-14",
+          "content": "LearnSphere is your all-in-one learning platform. Here's what you need to know..."
+        },
+        {
+          "title": "Course enrollment",
+          "href": "/help/articles/course-enrollment",
+          "lastUpdated": "2025-03-13",
+          "content": "Learn how to enroll in courses and start your learning journey..."
+        }
+      ]
+    },
+    {
+      "title": "Account & Billing",
+      "icon": "CreditCard",
+      "articles": [
+        {
+          "title": "Managing your subscription",
+          "href": "/help/articles/subscription",
+          "lastUpdated": "2025-03-12",
+          "content": "Everything you need to know about managing your LearnSphere subscription..."
+        },
+        {
+          "title": "Payment methods",
+          "href": "/help/articles/payment-methods",
+          "lastUpdated": "2025-03-11",
+          "content": "Learn about supported payment methods and how to update your billing information..."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I reset my password?",
+      "answer": "To reset your password, click on the 'Forgot Password' link on the login page. Enter your email address and follow the instructions sent to your inbox. For security reasons, password reset links expire after 24 hours."
+    },
+    {
+      "question": "Can I download course content for offline viewing?",
+      "answer": "Yes, premium subscribers can download course videos and materials for offline access through our mobile app. Downloaded content remains available for 30 days and can be renewed by connecting to the internet."
+    }
+  ],
+  "support": {
+    "hours": {
+      "email": {
+        "hours": "24/7",
+        "response": "Within 24 hours",
+        "priority": "Within 4 hours for premium members"
+      },
+      "phone": {
+        "hours": "Monday-Friday: 9:00 AM - 8:00 PM EST\nSaturday: 10:00 AM - 6:00 PM EST",
+        "response": "Immediate"
+      },
+      "chat": {
+        "hours": "24/7 for premium members\nMonday-Friday: 9:00 AM - 6:00 PM EST for standard members",
+        "response": "Average wait time: 2 minutes"
+      }
+    },
+    "contacts": {
+      "email": "support@learnsphere.io",
+      "phone": "1-800-LEARN (1-800-532-76)"
+    },
+    "locations": [
+      {
+        "city": "New York",
+        "address": "123 Learning Street, NY 10001",
+        "phone": "+1 (212) 555-0123"
+      },
+      {
+        "city": "London",
+        "address": "456 Education Lane, London EC1A 1BB",
+        "phone": "+44 20 7123 4567"
+      },
+      {
+        "city": "Singapore",
+        "address": "789 Knowledge Road, Singapore 018956",
+        "phone": "+65 6789 0123"
+      }
+    ]
+  }
+}

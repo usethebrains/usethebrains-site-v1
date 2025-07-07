@@ -1,0 +1,112 @@
+{
+  "id": "1",
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "john.doe@example.com",
+  "avatar_url": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+  "role": "student",
+  "joined_date": "2025-01-15",
+  "subscription": {
+    "plan": "basic",
+    "status": "active",
+    "start_date": "2025-01-15",
+    "renewal_date": "2025-04-15"
+  },
+  "profile": {
+    "bio": "Passionate about learning web development",
+    "location": "New York, USA",
+    "timezone": "America/New_York",
+    "language": "English",
+    "interests": ["Web Development", "JavaScript", "React"],
+    "education": {
+      "level": "Bachelor's Degree",
+      "field": "Computer Science",
+      "school": "New York University"
+    },
+    "goals": [
+      "Complete Full-Stack Development Track",
+      "Build Portfolio Projects",
+      "Land a Developer Role"
+    ],
+    "learning_style": "visual",
+    "weekly_study_goal": 10,
+    "preferred_study_time": "evening",
+    "social_links": {
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "github": "https://github.com/johndoe"
+    }
+  },
+  "learning_stats": {
+    "total_courses_enrolled": 5,
+    "courses_completed": 2,
+    "total_learning_hours": 48.5,
+    "average_rating_given": 4.5,
+    "certificates_earned": 3,
+    "streak_days": 15,
+    "last_active": "2025-03-20",
+    "learning_time_by_category": {
+      "Web Development": 25.5,
+      "JavaScript": 15.0,
+      "React": 8.0
+    }
+  },
+  "preferences": {
+    "email_notifications": {
+      "course_updates": true,
+      "new_courses": true,
+      "learning_reminders": true,
+      "achievement_alerts": true
+    },
+    "learning_preferences": {
+      "preferred_content_type": "video",
+      "study_schedule": ["evening", "weekend"],
+      "difficulty_level": "intermediate",
+      "weekly_study_goal": 10,
+      "learning_style": "visual",
+      "preferred_study_time": "evening"
+    },
+    "accessibility": {
+      "captions_enabled": true,
+      "high_contrast": false,
+      "font_size": "medium"
+    }
+  },
+  "enrolled_courses": ["2"],
+  "completed_courses": ["3", "4"],
+  "purchased_courses": ["1"],
+  "bookmarked_courses": ["5", "6"],
+  "course_progress": {
+    "2": {
+      "progress": 45,
+      "last_accessed": "2025-03-19",
+      "current_module": 2,
+      "current_lesson": 3,
+      "notes": [
+        {
+          "lesson_id": "2-1",
+          "content": "Important concepts about React hooks",
+          "timestamp": "2025-03-18T14:30:00Z"
+        }
+      ]
+    }
+  },
+  "achievements": [
+    {
+      "id": "1",
+      "title": "Quick Learner",
+      "description": "Completed first course",
+      "earned_date": "2025-02-01",
+      "icon": "star"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "course_id": "3",
+      "title": "Advanced React Development",
+      "issued_date": "2025-02-15",
+      "certificate_url": "https://example.com/cert/123",
+      "skills": ["React", "Redux", "TypeScript"]
+    }
+  ]
+}

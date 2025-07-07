@@ -1,0 +1,47 @@
+{
+  "id": "1",
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "john.doe@example.com",
+  "avatar_url": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+  "role": "student",
+  "joined_date": "2025-01-15",
+  "communities": {
+    "memberships": [
+      {
+        "communityId": "1",
+        "role": "member",
+        "joinedAt": "2025-02-01"
+      },
+      {
+        "communityId": "2",
+        "role": "admin",
+        "joinedAt": "2025-01-20"
+      }
+    ],
+    "following": ["3", "4", "5"],
+    "notifications": {
+      "newPosts": true,
+      "events": true,
+      "mentions": true
+    }
+  },
+  "subscription": {
+    "plan": "basic",
+    "status": "active",
+    "start_date": "2025-01-15",
+    "renewal_date": "2025-04-15"
+  },
+  "profile": {
+    "bio": "Passionate about learning web development",
+    "location": "New York, USA",
+    "timezone": "America/New_York",
+    "language": "English",
+    "interests": ["Web Development", "JavaScript", "React"],
+    "social_links": {
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "github": "https://github.com/johndoe",
+      "twitter": "https://twitter.com/johndoe"
+    }
+  }
+}

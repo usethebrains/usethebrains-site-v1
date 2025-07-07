@@ -1,0 +1,126 @@
+{
+  "id": "2",
+  "first_name": "Sarah",
+  "last_name": "Johnson",
+  "email": "sarah.johnson@example.com",
+  "avatar_url": "https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg",
+  "role": "creator",
+  "joined_date": "2024-11-20",
+  "subscription": {
+    "plan": "creator_pro",
+    "status": "active",
+    "start_date": "2024-11-20",
+    "renewal_date": "2025-11-20"
+  },
+  "profile": {
+    "title": "Senior Web Developer & Course Creator",
+    "bio": "Experienced web developer and educator with 10+ years in the industry. Passionate about teaching modern web technologies.",
+    "expertise": ["JavaScript", "React", "Node.js", "Web Development", "UI Design", "UX Research"],
+    "credentials": [
+      {
+        "title": "Master's in Computer Science",
+        "institution": "Stanford University",
+        "year": 2018
+      },
+      {
+        "title": "AWS Certified Solutions Architect",
+        "institution": "Amazon Web Services",
+        "year": 2023
+      }
+    ],
+    "company": "Tech Education Solutions",
+    "website": "https://sarahjohnson.dev",
+    "social_links": {
+      "linkedin": "https://linkedin.com/in/sarahjohnson",
+      "twitter": "https://twitter.com/sarahjdev",
+      "github": "https://github.com/sarahjdev"
+    }
+  },
+  "teaching_stats": {
+    "total_students": 15420,
+    "total_courses": 12,
+    "total_reviews": 3250,
+    "average_rating": 4.8,
+    "total_earnings": 125000,
+    "student_satisfaction": 98,
+    "response_rate": 95,
+    "total_teaching_hours": 450
+  },
+  "creator_analytics": {
+    "monthly_revenue": {
+      "current": 12500,
+      "previous": 11000,
+      "growth": 13.6
+    },
+    "student_engagement": {
+      "completion_rate": 78,
+      "average_watch_time": 85,
+      "return_rate": 65
+    },
+    "popular_topics": [
+      {
+        "name": "React Fundamentals",
+        "students": 3200,
+        "rating": 4.9
+      },
+      {
+        "name": "Advanced JavaScript",
+        "students": 2800,
+        "rating": 4.8
+      }
+    ]
+  },
+  "preferences": {
+    "payout_method": {
+      "type": "bank_transfer",
+      "frequency": "monthly",
+      "threshold": 100
+    },
+    "notification_settings": {
+      "new_reviews": true,
+      "course_performance": true,
+      "student_messages": true,
+      "payout_updates": true
+    },
+    "course_defaults": {
+      "language": "English",
+      "difficulty": "intermediate",
+      "caption_language": ["English", "Spanish"]
+    }
+  },
+  "courses": [
+    {
+      "id": "1",
+      "title": "JavaScript Fundamentals",
+      "status": "published",
+      "students": 1256,
+      "revenue": 45000,
+      "rating": 4.8,
+      "last_updated": "2025-03-15"
+    },
+    {
+      "id": "2",
+      "title": "UI/UX Design Mastery",
+      "status": "published",
+      "students": 875,
+      "revenue": 0,
+      "rating": 4.9,
+      "last_updated": "2025-03-18"
+    }
+  ],
+  "earnings": {
+    "lifetime": 125000,
+    "this_month": 12500,
+    "pending": 3500,
+    "last_payout": {
+      "amount": 11000,
+      "date": "2025-03-01"
+    }
+  },
+  "support_stats": {
+    "open_tickets": 5,
+    "average_response_time": "4 hours",
+    "resolution_rate": 98,
+    "student_satisfaction": 4.8
+  }
+}

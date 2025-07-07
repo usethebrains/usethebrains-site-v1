@@ -1,0 +1,174 @@
+{
+  "communities": [
+    {
+      "id": "1",
+      "name": "JavaScript Developers",
+      "description": "A community for JavaScript developers to share knowledge and ask questions",
+      "bannerUrl": "https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg",
+      "memberCount": 156,
+      "category": "Programming",
+      "isPrivate": false,
+      "createdAt": "2025-01-15T00:00:00Z",
+      "socialLinks": {
+        "twitter": "https://twitter.com/jsdevs",
+        "discord": "https://discord.gg/jsdevs",
+        "github": "https://github.com/jsdevs"
+      },
+      "members": [
+        {
+          "userId": "1",
+          "role": "admin",
+          "joinedAt": "2025-01-15T00:00:00Z",
+          "contributions": 156,
+          "badges": ["Founder", "Top Contributor"],
+          "lastActive": "2025-03-20T10:30:00Z"
+        }
+      ],
+      "posts": [
+        {
+          "id": "1",
+          "authorId": "1",
+          "content": "Just launched a new React course! Check it out and let me know your thoughts.",
+          "createdAt": "2025-03-20T10:30:00Z",
+          "updatedAt": "2025-03-20T10:30:00Z",
+          "isPinned": true,
+          "likes": [
+            {
+              "userId": "2",
+              "createdAt": "2025-03-20T10:35:00Z"
+            }
+          ],
+          "comments": [
+            {
+              "id": "1",
+              "authorId": "2",
+              "content": "This looks amazing! Can't wait to try it.",
+              "createdAt": "2025-03-20T10:40:00Z",
+              "likes": []
+            }
+          ],
+          "attachments": [
+            {
+              "type": "link",
+              "title": "React Course Launch",
+              "url": "https://example.com/course"
+            }
+          ],
+          "shares": [
+            {
+              "userId": "3",
+              "platform": "twitter",
+              "createdAt": "2025-03-20T11:00:00Z"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "1",
+          "title": "JavaScript Best Practices Workshop",
+          "description": "Learn modern JavaScript best practices and patterns",
+          "startDate": "2025-04-01T18:00:00Z",
+          "endDate": "2025-04-01T20:00:00Z",
+          "type": "online",
+          "link": "https://meet.example.com/js-workshop",
+          "createdBy": "1",
+          "attendees": [
+            {
+              "userId": "2",
+              "status": "confirmed",
+              "registeredAt": "2025-03-15T09:00:00Z"
+            }
+          ],
+          "maxAttendees": 100,
+          "tags": ["javascript", "best-practices", "workshop"]
+        }
+      ],
+      "resources": [
+        {
+          "id": "1",
+          "title": "JavaScript Learning Path",
+          "description": "Complete guide to mastering JavaScript",
+          "type": "document",
+          "url": "https://example.com/js-path.pdf",
+          "createdBy": "1",
+          "createdAt": "2025-02-01T00:00:00Z",
+          "downloads": 234,
+          "likes": 45,
+          "tags": ["javascript", "learning-path", "guide"]
+        }
+      ],
+      "stats": {
+        "totalPosts": 234,
+        "totalComments": 567,
+        "totalLikes": 1234,
+        "activeMembers": 45,
+        "weeklyGrowth": 12,
+        "engagement": {
+          "daily": 78,
+          "weekly": 456,
+          "monthly": 1890
+        }
+      },
+      "settings": {
+        "allowGuestPosts": false,
+        "requirePostApproval": true,
+        "allowMemberInvites": true,
+        "visibility": "public",
+        "joinRequirements": {
+          "requireApproval": false,
+          "questions": [
+            {
+              "id": "1",
+              "text": "Why do you want to join this community?",
+              "required": true
+            }
+          ]
+        },
+        "notifications": {
+          "newPosts": true,
+          "events": true,
+          "mentions": true
+        }
+      },
+      "roles": {
+        "admin": {
+          "permissions": ["manage_members", "manage_content", "manage_settings"]
+        },
+        "moderator": {
+          "permissions": ["manage_content", "approve_posts"]
+        },
+        "member": {
+          "permissions": ["create_posts", "comment", "attend_events"]
+        }
+      },
+      "tags": ["javascript", "web-development", "programming"],
+      "followers": [
+        {
+          "userId": "4",
+          "followedAt": "2025-03-01T00:00:00Z",
+          "notificationPreferences": {
+            "posts": true,
+            "events": true
+          }
+        }
+      ],
+      "analytics": {
+        "viewCount": 12345,
+        "uniqueVisitors": 789,
+        "popularTimes": {
+          "monday": [10, 15, 16],
+          "tuesday": [9, 14, 17]
+        },
+        "topContributors": [
+          {
+            "userId": "1",
+            "posts": 45,
+            "comments": 123,
+            "likes": 234
+          }
+        ]
+      }
+    }
+  ]
+}

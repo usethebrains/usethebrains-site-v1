@@ -12,7 +12,7 @@ export default function HeroSection() {
         <div className="p-8 sm:p-12 lg:p-16">
           <div className="animate-slide-up delay-300">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl leading-tight text-white font-medium tracking-tight">
-              Unleashing<br/>Africa's<br/>Potential
+              Unleashing<br />Africa's<br />Potential
             </h1>
           </div>
           <div className="animate-slide-up delay-400">
@@ -64,11 +64,11 @@ export default function HeroSection() {
 
           {/* Main Visual */}
           <div className="relative z-10 w-full h-full min-h-[300px] md:min-h-[400px] flex items-center justify-center">
-            <Image 
-              src="/assets/group.png" 
-              alt="usethebrains technologies" 
-              width={600} 
-              height={400} 
+            <Image
+              src="/assets/group.png"
+              alt="usethebrains technologies"
+              width={600}
+              height={400}
               className="object-cover rounded-lg shadow-lg"
             />
           </div>

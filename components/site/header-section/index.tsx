@@ -32,11 +32,11 @@ export default function HeaderSection() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="h-9 w-9 rounded-xl bg-[#004be0] flex items-center justify-center text-sm font-black group-hover:scale-105 transition-transform">
-            <Image 
-              src="/usethebrains logo.png" 
-              alt="usethebrains logo" 
-              width={36} 
-              height={36} 
+            <Image
+              src="/usethebrains logo.png"
+              alt="usethebrains logo"
+              width={36}
+              height={36}
               className="rounded-xl"
             />
           </div>
@@ -63,7 +63,7 @@ export default function HeaderSection() {
           </Link>
 
           <Link href="/login">
-            <button 
+            <button
               className="flex items-center gap-2 rounded-full px-5 py-3 text-sm shadow-sm hover:shadow-md transition-all duration-200 bg-[#004be0] text-white hover:bg-[#0039b3]"
             >
               <span className="flex items-center gap-2">
@@ -76,8 +76,8 @@ export default function HeaderSection() {
 
         {/* Mobile menu button */}
         <div className="md:hidden flex items-center gap-2">
-          <button 
-            id="menuBtn" 
+          <button
+            id="menuBtn"
             className="flex items-center justify-center h-10 w-10 rounded-lg transition-colors duration-200 hover:bg-white/5"
             onClick={toggleMobileMenu}
           >
@@ -85,9 +85,9 @@ export default function HeaderSection() {
           </button>
         </div>
       </div>
-      
+
       {/* Mobile Nav */}
-      <nav 
+      <nav
         className={`md:hidden mt-4 backdrop-blur-lg rounded-2xl shadow-lg border divide-y overflow-hidden bg-[#09090B]/95 border-white/10 divide-white/5 ${isMobileMenuOpen ? 'block' : 'hidden'}`}
       >
         <Link href="#" className="flex items-center gap-3 px-6 py-4 text-sm font-medium transition-colors hover:bg-white/5">
@@ -111,7 +111,7 @@ export default function HeaderSection() {
           Contact
         </Link>
         <Link href="/login" className="flex items-center gap-3 px-6 py-4">
-          <button 
+          <button
             className="flex items-center justify-center gap-2 rounded-full px-5 py-2 text-sm shadow-sm hover:shadow-md transition-all duration-200 bg-[#004be0] text-white hover:bg-[#0039b3] w-full"
           >
             <span className="flex items-center justify-center gap-2">

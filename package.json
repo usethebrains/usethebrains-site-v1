@@ -78,7 +78,6 @@
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^22.15.17",
     "@types/qs": "^6.9.10",
-    "@types/react": "^19.1.8",
     "@types/uuid": "^9.0.7",
     "autoprefixer": "^10.4.16",
     "eslint": "^9.30.1",

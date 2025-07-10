@@ -64,7 +64,7 @@ export default function HeaderSection() {
 
           <Link href="/login">
             <button
-              className="flex items-center gap-2 rounded-full px-5 py-3 text-sm shadow-sm hover:shadow-md transition-all duration-200 bg-[#004be0] text-white hover:bg-[#0039b3]"
+              className="flex items-center gap-2 rounded-full px-5 py-3 text-sm shadow-xs hover:shadow-md transition-all duration-200 bg-[#004be0] text-white hover:bg-[#0039b3]"
             >
               <span className="flex items-center gap-2">
                 <GraduationCap className="w-4 h-4" />
@@ -112,7 +112,7 @@ export default function HeaderSection() {
         </Link>
         <Link href="/login" className="flex items-center gap-3 px-6 py-4">
           <button
-            className="flex items-center justify-center gap-2 rounded-full px-5 py-2 text-sm shadow-sm hover:shadow-md transition-all duration-200 bg-[#004be0] text-white hover:bg-[#0039b3] w-full"
+            className="flex items-center justify-center gap-2 rounded-full px-5 py-2 text-sm shadow-xs hover:shadow-md transition-all duration-200 bg-[#004be0] text-white hover:bg-[#0039b3] w-full"
           >
             <span className="flex items-center justify-center gap-2">
               <Smartphone className="w-4 h-4" />

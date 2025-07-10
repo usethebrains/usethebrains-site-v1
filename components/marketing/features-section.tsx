@@ -59,7 +59,7 @@ export default function FeaturesSection() {
         </div>
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 pt-12">
           {features.map((feature, index) => (
-            <div key={index} className="relative overflow-hidden rounded-lg border bg-background p-6 shadow-sm transition-shadow hover:shadow-md">
+            <div key={index} className="relative overflow-hidden rounded-lg border bg-background p-6 shadow-xs transition-shadow hover:shadow-md">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-muted mb-4">
                 {feature.icon}
               </div>

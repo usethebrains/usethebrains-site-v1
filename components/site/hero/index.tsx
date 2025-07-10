@@ -5,9 +5,9 @@ export default function MainHero() {
   return (
  <>
     <section className="w-full h-full relative flex items-center justify-center flex-col" >
-    {/** <div className="absolute mx-[80px] top-0 z-[-2] h-screen w-screen bg-[#030010] bg-[radial-gradient(#ffffff33_1px,#030010_1px)] bg-[size:20px_20px]" /> */}
-      <div className="absolute mx-0 lg:mx-[80px] top-0 z-[-2] h-screen w-screen bg-[radial-gradient(#ffffff33_1px,#000000_1px)] bg-[size:20px_20px]" />
-      <div className="mx-0 lg:mx-[80px] bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative mt-[90px]">
+    {/** <div className="absolute mx-[80px] top-0 z-[-2] h-screen w-screen bg-[#030010] bg-[radial-gradient(#ffffff33_1px,#030010_1px)] bg-size-[20px_20px]" /> */}
+      <div className="absolute mx-0 lg:mx-[80px] top-0 z-[-2] h-screen w-screen bg-[radial-gradient(#ffffff33_1px,#000000_1px)] bg-size-[20px_20px]" />
+      <div className="mx-0 lg:mx-[80px] bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative mt-[90px]">
      <div className="flex items-center justify-center mb-5">
      {/**DESKTOP */}
      <div className="hidden sm:flex w-[380px] items-center justify-center py-1 px-1 pr-4 mb-2 text-sm text-white rounded-full bg-gray-800">
@@ -43,7 +43,7 @@ export default function MainHero() {
     <section>
     <div className="flex justify-center items-center relative bg-[#09090B] mt-5">
         <Image src={'/assets/group.png'} alt="banner image" height={1200} width={1200} className="rounded-tl-2xl rounded-tr-2xl border-2 border-muted"/>
-       {/** <div className="bottom-0 top-[50%] bg-gradient-to-t dark:from-background left-0 right-0 z-10"></div> */}
+       {/** <div className="bottom-0 top-[50%] bg-linear-to-t dark:from-background left-0 right-0 z-10"></div> */}
       </div>
     </section>
     <section>

@@ -133,11 +133,11 @@ export default function CommunityPage() {
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-background/80 to-transparent" />
                   {group.isPrivate && (
                     <Badge 
                       variant="secondary" 
-                      className="absolute top-2 right-2 bg-background/80 backdrop-blur-sm"
+                      className="absolute top-2 right-2 bg-background/80 backdrop-blur-xs"
                     >
                       Private
                     </Badge>

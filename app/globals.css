@@ -1,6 +1,38 @@
+@layer theme, components, base, utilities;
+@import 'tailwindcss';
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
+
+@config '../tailwind.config.ts';
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility container {
+  @apply w-full px-4 mx-auto;
+  max-width: calc(100% - 2rem);
+
+  @media (min-width: 768px) {
+    max-width: calc(100% - (2 * var(--page-margin)));
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+  }
+}
 
 @layer base {
   * {
@@ -12,19 +44,17 @@
   }
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer utilities {
+  html,
+  body {
+    height: 100vh;
+  }
 
-html,
-body {
-  height: 100vh;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 }
 
 @layer base {
@@ -105,21 +135,6 @@ body {
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-  }
-}
-
-@layer components {
-  .container {
-    @apply w-full px-4 mx-auto;
-    max-width: calc(100% - 2rem);
-  }
-
-  @media (min-width: 768px) {
-    .container {
-      max-width: calc(100% - (2 * var(--page-margin)));
-      padding-left: var(--page-padding);
-      padding-right: var(--page-padding);
-    }
   }
 }
 

@@ -4,8 +4,8 @@ export default function Hero() {
   return (
    <>
     <section className="w-full m  relative flex items-center justify-center flex-col" >
-        <div className="absolute mx-[80px] top-0 z-[-2] h-screen w-screen bg-[#030010] bg-[radial-gradient(#ffffff33_1px,#030010_1px)] bg-[size:20px_20px]" />
-        <div className="mx-[80px] bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative mt-[110px]">
+        <div className="absolute mx-[80px] top-0 z-[-2] h-screen w-screen bg-[#030010] bg-[radial-gradient(#ffffff33_1px,#030010_1px)] bg-size-[20px_20px]" />
+        <div className="mx-[80px] bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative mt-[110px]">
        <div className="flex items-center justify-center mb-5">
        <div className="flex items-center justify-center py-1 px-1 pr-4 mb-4 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 w-[370px]">
             <span className="text-xs bg-[#004be0] rounded-full text-white px-4 py-1.5 mr-3">New</span> <span className="text-sm font-medium">Free bece past questions & answers</span> 
@@ -21,8 +21,8 @@ export default function Hero() {
         </div>
         </div>
         <div className="mt-8 mb-12 flex flex-wrap justify-center gap-4">
-          <a className="block w-full rounded border border-[#004be0] bg-[#004be0] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto" href="#"> Get Started </a>
-          <a className="block w-full rounded border border-[#004be0] px-12 py-3 text-sm font-medium text-white hover:bg-[#004be0] focus:outline-none focus:ring active:bg-blue-700 sm:w-auto" href="#"> Learn More </a>
+          <a className="block w-full rounded border border-[#004be0] bg-[#004be0] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-hidden focus:ring-3 active:text-opacity-75 sm:w-auto" href="#"> Get Started </a>
+          <a className="block w-full rounded border border-[#004be0] px-12 py-3 text-sm font-medium text-white hover:bg-[#004be0] focus:outline-hidden focus:ring-3 active:bg-blue-700 sm:w-auto" href="#"> Learn More </a>
       </div>
       
     </section>
@@ -30,12 +30,12 @@ export default function Hero() {
     {/**<div className="flex justify-center items-center relative bg-[#000715]">0F0D12 */}
     <div className="flex justify-center items-center relative bg-[#030010]">
         <Image src={'/assets/group.png'} alt="banner image" height={1200} width={1200} className="rounded-tl-2xl rounded-tr-2xl border-2 border-muted"/>
-        <div className="bottom-0 top-[50%] bg-gradient-to-t dark:from-background left-0 right-0 z-10"></div>
+        <div className="bottom-0 top-[50%] bg-linear-to-t dark:from-background left-0 right-0 z-10"></div>
       </div>
     </section>
    {/* <section className="w-full m  relative flex items-center justify-center flex-col" >
-        <div className="absolute mx-[80px] top-0 z-[-2] h-screen w-screen bg-[#030010] bg-[radial-gradient(#ffffff33_1px,#030010_1px)] bg-[size:20px_20px]" />
-        <div className="mx-[80px] bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative mt-[110px]">
+        <div className="absolute mx-[80px] top-0 z-[-2] h-screen w-screen bg-[#030010] bg-[radial-gradient(#ffffff33_1px,#030010_1px)] bg-size-[20px_20px]" />
+        <div className="mx-[80px] bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative mt-[110px]">
             <div className="flex items-center justify-center mb-5">
                 <div className="flex items-center justify-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 w-[360px]">
                     <span className="text-xs bg-[#004be0] rounded-full text-white px-4 py-1.5 mr-3">New</span> <span className="text-sm font-medium">Free bece past questions & answers</span> 
@@ -49,15 +49,15 @@ export default function Hero() {
        <p className="mt-10 mx-10 sm:text-xl/relaxed text-center text-white">at usethebrains, we’re all about transforming ideas into digital realities, crafting innovative solutions that bridge the gap between imagination and execution</p></div>
        </div>
        <div className="mt-8 mb-12 flex flex-wrap justify-center gap-4">
-            <a className="block w-full rounded border border-[#004be0] bg-[#004be0] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto" href="#"> Get Started </a>
-            <a className="block w-full rounded border border-[#004be0] px-12 py-3 text-sm font-medium text-white hover:bg-[#004be0] focus:outline-none focus:ring active:bg-blue-700 sm:w-auto" href="#"> Learn More </a>
+            <a className="block w-full rounded border border-[#004be0] bg-[#004be0] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-hidden focus:ring-3 active:text-opacity-75 sm:w-auto" href="#"> Get Started </a>
+            <a className="block w-full rounded border border-[#004be0] px-12 py-3 text-sm font-medium text-white hover:bg-[#004be0] focus:outline-hidden focus:ring-3 active:bg-blue-700 sm:w-auto" href="#"> Learn More </a>
        </div>
   </section>
 
 <section>
     <div className="flex justify-center items-center relative bg-[#030010]">
     <Image src={'/assets/group.png'} alt="banner image" height={1200} width={1200} className="rounded-tl-2xl rounded-tr-2xl border-2 border-muted"/>
-    <div className="bottom-0 top-[50%] bg-gradient-to-t dark:from-background left-0 right-0 z-10"></div>
+    <div className="bottom-0 top-[50%] bg-linear-to-t dark:from-background left-0 right-0 z-10"></div>
   </div>
 </section>
   */}

@@ -5,7 +5,7 @@ import { SiScratch , SiTinkercad, SiArduino } from "react-icons/si";
 export default function Bootcamps() {
   return (
     <section className="bg-[#000000]">
-    <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-3 lg:py-6">
+    <div className="max-w-(--breakpoint-xl) px-4 py-8 sm:px-6 sm:py-12 lg:px-3 lg:py-6">
       <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
       <div className="p-8 md:p-12 lg:px-12 lg:py-24">
       <div className="text-left">
@@ -24,7 +24,7 @@ export default function Bootcamps() {
     </div>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
           <a
-            className="block rounded-xl border border-[#27272a] p-4 shadow-sm "
+            className="block rounded-xl border border-[#27272a] p-4 shadow-xs "
             href="#"
           >
             <span className="inline-block rounded-lg bg-[#141419] p-3">
@@ -39,7 +39,7 @@ export default function Bootcamps() {
           </a>
   
           <a
-            className="block rounded-xl border border-[#27272a] p-4 shadow-sm "
+            className="block rounded-xl border border-[#27272a] p-4 shadow-xs "
             href="#"
           >
             <span className="inline-block rounded-lg bg-[#141419] p-3">
@@ -54,7 +54,7 @@ export default function Bootcamps() {
           </a>
   
           <a
-            className="block rounded-xl border border-[#27272a] p-4 shadow-sm "
+            className="block rounded-xl border border-[#27272a] p-4 shadow-xs "
             href="#"
           >
             <span className="inline-block rounded-lg bg-[#141419] p-3">
@@ -69,7 +69,7 @@ export default function Bootcamps() {
           </a>
   
           <a
-            className="block rounded-xl border border-[#27272a] p-4 shadow-sm "
+            className="block rounded-xl border border-[#27272a] p-4 shadow-xs "
             href="#"
           >
             <span className="inline-block rounded-lg bg-[#141419] p-3">
@@ -84,7 +84,7 @@ export default function Bootcamps() {
           </a>
   
           <a
-            className="block rounded-xl border border-[#27272a] p-4 shadow-sm "
+            className="block rounded-xl border border-[#27272a] p-4 shadow-xs "
             href="#"
           >
             <span className="inline-block rounded-lg bg-[#141419] p-3">
@@ -99,7 +99,7 @@ export default function Bootcamps() {
           </a>
   
           <a
-            className="block rounded-xl border border-[#27272a] p-4 shadow-sm "
+            className="block rounded-xl border border-[#27272a] p-4 shadow-xs "
             href="#"
           >
             <span className="inline-block rounded-lg bg-[#141419] p-3">

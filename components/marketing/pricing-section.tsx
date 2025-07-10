@@ -20,7 +20,7 @@ export default function PricingSection() {
       ],
       button: {
         text: "Get Started",
-        variant: "outline",
+        variant: "outline-solid",
       },
       popular: false,
     },
@@ -58,7 +58,7 @@ export default function PricingSection() {
       ],
       button: {
         text: "Contact Sales",
-        variant: "outline",
+        variant: "outline-solid",
       },
       popular: false,
     },
@@ -85,7 +85,7 @@ export default function PricingSection() {
             <Card
               key={index}
               className={`relative overflow-hidden border ${
-                plan.popular ? "shadow-lg ring-2 ring-primary" : "shadow-sm"
+                plan.popular ? "shadow-lg ring-2 ring-primary" : "shadow-xs"
               }`}
             >
               {plan.popular && (
@@ -114,7 +114,7 @@ export default function PricingSection() {
               <CardFooter>
                 <Link href="/register" className="w-full">
                   <Button
-                    variant={plan.button.variant as "default" | "outline"}
+                    variant={plan.button.variant as "default" | "outline-solid"}
                     className="w-full"
                   >
                     {plan.button.text}

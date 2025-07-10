@@ -56,7 +56,7 @@ export default function PlatformFeatures() {
             <h2 className="text-lg font-semibold tracking-tight text-[#7f858e]">What We Offer</h2>
           </div>
           <div className="grid grid-cols-2 gap-3 h-full">
-            <div className="rounded-xl border p-4 bg-gradient-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-lg transition-all border-white/10 flex flex-col h-full group hover:border-[#004be0]/30">
+            <div className="rounded-xl border p-4 bg-linear-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-lg transition-all border-white/10 flex flex-col h-full group hover:border-[#004be0]/30">
               <div className="bg-[#004be0]/10 w-8 h-8 rounded-lg flex items-center justify-center mb-2 group-hover:bg-[#004be0]/20 transition-colors">
                 <div className="text-[#004be0]">
                   <Code2 className="h-5 w-5" />
@@ -65,7 +65,7 @@ export default function PlatformFeatures() {
               <h3 className="font-medium text-white mb-1 text-base">Web Development</h3>
               <p className="text-xs text-[#7f858e] flex-1">Custom websites and web applications built with the latest technologies.</p>
             </div>
-            <div className="rounded-xl border p-4 bg-gradient-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-lg transition-all border-white/10 flex flex-col h-full group hover:border-[#004be0]/30">
+            <div className="rounded-xl border p-4 bg-linear-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-lg transition-all border-white/10 flex flex-col h-full group hover:border-[#004be0]/30">
               <div className="bg-[#004be0]/10 w-8 h-8 rounded-lg flex items-center justify-center mb-2 group-hover:bg-[#004be0]/20 transition-colors">
                 <div className="text-[#004be0]">
                   <Smartphone className="h-5 w-5" />
@@ -74,7 +74,7 @@ export default function PlatformFeatures() {
               <h3 className="font-medium text-white mb-1 text-base">Mobile Apps</h3>
               <p className="text-xs text-[#7f858e] flex-1">Native and cross-platform mobile applications for iOS and Android.</p>
             </div>
-            <div className="rounded-xl border p-4 bg-gradient-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-lg transition-all border-white/10 flex flex-col h-full group hover:border-[#004be0]/30">
+            <div className="rounded-xl border p-4 bg-linear-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-lg transition-all border-white/10 flex flex-col h-full group hover:border-[#004be0]/30">
               <div className="bg-[#004be0]/10 w-8 h-8 rounded-lg flex items-center justify-center mb-2 group-hover:bg-[#004be0]/20 transition-colors">
                 <div className="text-[#004be0]">
                   <GraduationCap className="h-5 w-5" />
@@ -83,7 +83,7 @@ export default function PlatformFeatures() {
               <h3 className="font-medium text-white mb-1 text-base">AI Solutions</h3>
               <p className="text-xs text-[#7f858e] flex-1">Intelligent systems that learn and adapt to your business needs.</p>
             </div>
-            <div className="rounded-xl border p-4 bg-gradient-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-lg transition-all border-white/10 flex flex-col h-full group hover:border-[#004be0]/30">
+            <div className="rounded-xl border p-4 bg-linear-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-lg transition-all border-white/10 flex flex-col h-full group hover:border-[#004be0]/30">
               <div className="bg-[#004be0]/10 w-8 h-8 rounded-lg flex items-center justify-center mb-2 group-hover:bg-[#004be0]/20 transition-colors">
                 <div className="text-[#004be0]">
                   <Layout className="h-5 w-5" />

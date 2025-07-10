@@ -81,21 +81,21 @@ export default function DashboardChart() {
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center space-x-2">
           <Button 
-            variant={chartType === "students" ? "default" : "outline"} 
+            variant={chartType === "students" ? "default" : "outline-solid"} 
             size="sm"
             onClick={() => setChartType("students")}
           >
             Students
           </Button>
           <Button 
-            variant={chartType === "revenue" ? "default" : "outline"} 
+            variant={chartType === "revenue" ? "default" : "outline-solid"} 
             size="sm"
             onClick={() => setChartType("revenue")}
           >
             Revenue
           </Button>
           <Button 
-            variant={chartType === "completions" ? "default" : "outline"} 
+            variant={chartType === "completions" ? "default" : "outline-solid"} 
             size="sm"
             onClick={() => setChartType("completions")}
           >

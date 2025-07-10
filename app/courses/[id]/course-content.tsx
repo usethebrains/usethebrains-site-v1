@@ -182,7 +182,7 @@ export default function CourseContent() {
       <div className="container mx-auto py-6 px-4">
         <div className="grid gap-6 md:grid-cols-[2fr_1fr]">
           <div className="space-y-6">
-            <div className="bg-card rounded-lg p-6 shadow-sm">
+            <div className="bg-card rounded-lg p-6 shadow-xs">
               <div className="flex items-center gap-2 mb-4">
                 <Badge>{course.level}</Badge>
                 {getPriceDisplay()}
@@ -191,7 +191,7 @@ export default function CourseContent() {
               <p className="text-muted-foreground">{course.description}</p>
             </div>
 
-            <div className="bg-card rounded-lg shadow-sm">
+            <div className="bg-card rounded-lg shadow-xs">
               {currentLesson?.type === "quiz" ? (
                 canAccessLesson(currentModuleIndex, currentLessonIndex) ? (
                   <div className="p-6">

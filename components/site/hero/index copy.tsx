@@ -132,7 +132,7 @@ type Props = {
 const Navigation = ({user}: Props) => {
   const isDesktop = useMediaQuery("(min-width: 700px)");
   return isDesktop ? 
-  <div className="fixed top-0 right-0 left-0 p-2 flex items-center justify-between z-10 border-b border-n-2 backdrop-blur bg-[url(/assets/gradient.png)] ">
+  <div className="fixed top-0 right-0 left-0 p-2 flex items-center justify-between z-10 border-b border-n-2 backdrop-blur-sm bg-[url(/assets/gradient.png)] ">
     <Link href={'/'} className='m-0 p-0'>
     <aside className="flex items-center gap-2 ">
          <Image
@@ -235,7 +235,7 @@ const Navigation = ({user}: Props) => {
 
 
     :
-    <div className="fixed top-0 right-0 left-0 p-[10px] flex items-center justify-between z-10 border-b border-n-2 backdrop-blur bg-[url(/assets/gradient.png)] ">
+    <div className="fixed top-0 right-0 left-0 p-[10px] flex items-center justify-between z-10 border-b border-n-2 backdrop-blur-sm bg-[url(/assets/gradient.png)] ">
       <Link href={'/'} className='m-0 p-0'>
     <aside className="flex items-center gap-2 ">
          <Image
@@ -316,7 +316,7 @@ const ListItem = React.forwardRef<
         <a
           ref={ref}
           className={cn(
-            "block bg-transparent select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "block bg-transparent select-none space-y-1 rounded-md p-3 leading-none no-underline outline-hidden hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
             className
           )}
           {...props}

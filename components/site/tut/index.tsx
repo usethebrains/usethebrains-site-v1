@@ -3,16 +3,16 @@ import { Code, Smartphone, BrainCircuit, Cloud } from 'lucide-react';
 
 export default function Tut() {
   return (
-    <section className="bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#000000_1px)] bg-[size:20px_20px]">
+    <section className="bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#000000_1px)] bg-size-[20px_20px]">
       <div className="sm:mx-[5px] md:mx-[40px]">
-        <div className="py-8 lg:py-16 mx-auto max-w-screen-xl sm:px-0 md:px-4">
+        <div className="py-8 lg:py-16 mx-auto max-w-(--breakpoint-xl) sm:px-0 md:px-4">
           <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-white dark:text-white md:text-4xl px-[25px] sm:px-0">
               Our Technology Services</h2>
           
           {/**1st FOUR FEATURED START*/}
           <div className="grid justify-items-center grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-6 px-[30px] sm:px-0">
-            <div className="overflow-hidden rounded-lg border border-[#27272a] bg-gradient-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-xl transition-all duration-300 group hover:border-[#004be0]/30">
-              <div className="h-40 bg-gradient-to-r from-[#004be0]/20 to-[#004be0]/5 flex items-center justify-center">
+            <div className="overflow-hidden rounded-lg border border-[#27272a] bg-linear-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-xl transition-all duration-300 group hover:border-[#004be0]/30">
+              <div className="h-40 bg-linear-to-r from-[#004be0]/20 to-[#004be0]/5 flex items-center justify-center">
                 <Code className="h-20 w-20 text-[#004be0]" />
               </div>
               <div className="p-4 sm:p-6"><a href="#">
@@ -33,8 +33,8 @@ export default function Tut() {
       </span>
             </a></div>
             </div>
-<div className="overflow-hidden rounded-lg border border-[#27272a] bg-gradient-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-xl transition-all duration-300 group hover:border-[#004be0]/30">
-  <div className="h-40 bg-gradient-to-r from-[#004be0]/20 to-[#004be0]/5 flex items-center justify-center">
+<div className="overflow-hidden rounded-lg border border-[#27272a] bg-linear-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-xl transition-all duration-300 group hover:border-[#004be0]/30">
+  <div className="h-40 bg-linear-to-r from-[#004be0]/20 to-[#004be0]/5 flex items-center justify-center">
     <Smartphone className="h-20 w-20 text-[#004be0]" />
   </div>
 
@@ -60,8 +60,8 @@ export default function Tut() {
     </a>
   </div>
 </div>
-<div className="overflow-hidden rounded-lg border border-[#27272a] bg-gradient-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-xl transition-all duration-300 group hover:border-[#004be0]/30">
-  <div className="h-40 bg-gradient-to-r from-[#004be0]/20 to-[#004be0]/5 flex items-center justify-center">
+<div className="overflow-hidden rounded-lg border border-[#27272a] bg-linear-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-xl transition-all duration-300 group hover:border-[#004be0]/30">
+  <div className="h-40 bg-linear-to-r from-[#004be0]/20 to-[#004be0]/5 flex items-center justify-center">
     <BrainCircuit className="h-20 w-20 text-[#004be0]" />
   </div>
 
@@ -87,8 +87,8 @@ export default function Tut() {
     </a>
   </div>
 </div>
-<div className="overflow-hidden rounded-lg border border-[#27272a] bg-gradient-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-xl transition-all duration-300 group hover:border-[#004be0]/30">
-  <div className="h-40 bg-gradient-to-r from-[#004be0]/20 to-[#004be0]/5 flex items-center justify-center">
+<div className="overflow-hidden rounded-lg border border-[#27272a] bg-linear-to-br from-[#09090B] to-[#13131f] shadow-md hover:shadow-xl transition-all duration-300 group hover:border-[#004be0]/30">
+  <div className="h-40 bg-linear-to-r from-[#004be0]/20 to-[#004be0]/5 flex items-center justify-center">
     <Cloud className="h-20 w-20 text-[#004be0]" />
   </div>
 

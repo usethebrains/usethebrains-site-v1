@@ -53,7 +53,7 @@ export default function CoursePublishPage() {
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <Button
-                  variant={checklist.contentReviewed ? "default" : "outline"}
+                  variant={checklist.contentReviewed ? "default" : "outline-solid"}
                   onClick={() => setChecklist(c => ({ ...c, contentReviewed: !c.contentReviewed }))}
                 >
                   <ClipboardCheck className="mr-2 h-4 w-4" />
@@ -68,7 +68,7 @@ export default function CoursePublishPage() {
 
               <div className="flex items-center gap-4">
                 <Button
-                  variant={checklist.thumbnailUploaded ? "default" : "outline"}
+                  variant={checklist.thumbnailUploaded ? "default" : "outline-solid"}
                   onClick={() => setChecklist(c => ({ ...c, thumbnailUploaded: !c.thumbnailUploaded }))}
                 >
                   <Eye className="mr-2 h-4 w-4" />
@@ -83,7 +83,7 @@ export default function CoursePublishPage() {
 
               <div className="flex items-center gap-4">
                 <Button
-                  variant={checklist.pricingSet ? "default" : "outline"}
+                  variant={checklist.pricingSet ? "default" : "outline-solid"}
                   onClick={() => setChecklist(c => ({ ...c, pricingSet: !c.pricingSet }))}
                 >
                   <CheckCircle2 className="mr-2 h-4 w-4" />
@@ -98,7 +98,7 @@ export default function CoursePublishPage() {
 
               <div className="flex items-center gap-4">
                 <Button
-                  variant={checklist.previewEnabled ? "default" : "outline"}
+                  variant={checklist.previewEnabled ? "default" : "outline-solid"}
                   onClick={() => setChecklist(c => ({ ...c, previewEnabled: !c.previewEnabled }))}
                 >
                   <CheckCircle2 className="mr-2 h-4 w-4" />

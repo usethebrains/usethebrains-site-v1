@@ -99,7 +99,7 @@ export default function MegaMenu() {
                                         <Link key={course.href} href={course.href} legacyBehavior passHref>
                                             <NavigationMenuLink
                                                 className={cn(
-                                                    "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                                    "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                                                 )}
                                             >
                                                 <course.icon className="mb-2 h-6 w-6" />
@@ -144,7 +144,7 @@ export default function MegaMenu() {
                                         <Link key={resource.href} href={resource.href} legacyBehavior passHref>
                                             <NavigationMenuLink
                                                 className={cn(
-                                                    "flex gap-2 select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                                    "flex gap-2 select-none rounded-md p-3 leading-none no-underline outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                                                 )}
                                             >
                                                 <resource.icon className="h-6 w-6" />

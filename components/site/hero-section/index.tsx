@@ -28,7 +28,7 @@ export default function HeroSection() {
                 </span>
               </Link>
 
-              <Link href="#" className="flex items-center gap-2 border rounded-full px-5 py-3 text-sm shadow-sm hover:shadow-md transition-all duration-200 bg-white text-[#09090B] border-white hover:bg-opacity-90">
+              <Link href="#" className="flex items-center gap-2 border rounded-full px-5 py-3 text-sm shadow-xs hover:shadow-md transition-all duration-200 bg-white text-[#09090B] border-white hover:bg-opacity-90">
                 Learn More
               </Link>
             </div>
@@ -38,7 +38,7 @@ export default function HeroSection() {
         {/* Visual */}
         <div className="relative bg-[#004be0] overflow-hidden">
           {/* Portfolio Card */}
-          <div className="absolute top-6 left-6 md:top-8 md:left-8 backdrop-blur-sm rounded-2xl p-4 text-xs shadow-lg border flex flex-col gap-1 hover:shadow-xl transition-all duration-300 bg-[#09090B]/90 border-white/10">
+          <div className="absolute top-6 left-6 md:top-8 md:left-8 backdrop-blur-xs rounded-2xl p-4 text-xs shadow-lg border flex flex-col gap-1 hover:shadow-xl transition-all duration-300 bg-[#09090B]/90 border-white/10">
             <div className="flex items-center gap-2">
               <ArrowRight className="w-3 h-3 text-[#004be0]" />
               <span className="text-[10px] uppercase tracking-widest text-[#7f858e] font-medium">Digital Solutions</span>
@@ -54,7 +54,7 @@ export default function HeroSection() {
           </div>
 
           {/* Additional Stats Card */}
-          <div className="absolute bottom-6 right-6 md:bottom-8 md:right-8 backdrop-blur-sm rounded-2xl p-3 text-xs shadow-lg border hover:shadow-xl transition-all duration-300 bg-[#09090B]/90 border-white/10">
+          <div className="absolute bottom-6 right-6 md:bottom-8 md:right-8 backdrop-blur-xs rounded-2xl p-3 text-xs shadow-lg border hover:shadow-xl transition-all duration-300 bg-[#09090B]/90 border-white/10">
             <div className="flex items-center gap-2">
               <Star className="w-3 h-3 text-[#004be0]" />
               <span className="text-[10px] uppercase tracking-widest text-[#7f858e] font-medium">Client Satisfaction</span>

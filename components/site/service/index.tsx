@@ -9,7 +9,7 @@ import { BsSmartwatch } from "react-icons/bs";
 export default function Service() {
   return (
     <section className="bg-[#000000] text-white">
-  <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-6 lg:py-16">
+  <div className="mx-auto max-w-(--breakpoint-xl) px-4 py-8 sm:px-6 sm:py-12 lg:px-6 lg:py-16">
     <div className="mx-auto max-w-lg text-center">
       {/**HEADERS SERVICES START */}
       <h2 className="text-3xl font-bold sm:text-4xl">Our Services</h2>
@@ -27,7 +27,7 @@ export default function Service() {
     <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 
 {/**------------ */}
-<div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
+<div className="bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
   <span className="inline-block rounded bg-[#09090B] p-2 text-white">
   <FaAndroid />
   </span>
@@ -52,7 +52,7 @@ export default function Service() {
   </a>
 </div>
 
-<div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
+<div className="bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
   <span className="inline-block rounded bg-[#09090B] p-2 text-white">
   <LuBrainCircuit />
   </span>
@@ -79,7 +79,7 @@ export default function Service() {
 </div>
 
 
-<div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
+<div className="bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
   <span className="inline-block rounded bg-[#09090B] p-2 text-white">
   <FaReact />
   </span>
@@ -104,7 +104,7 @@ export default function Service() {
   </a>
 </div>
 {/**bg-[#09090B]  */}
-<div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
+<div className="bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
   <span className="inline-block rounded bg-[#09090B] p-2 text-white">
   <FaPhp />
   </span>
@@ -130,7 +130,7 @@ export default function Service() {
   </a>
 </div>
 
-<div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
+<div className="bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
   <span className="inline-block rounded bg-[#09090B] p-2 text-white">
   <LiaCertificateSolid />
   </span>
@@ -156,7 +156,7 @@ export default function Service() {
   </a>
 </div>
 
-<div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
+<div className="bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
   <span className="inline-block rounded bg-[#09090B] p-2 text-white">
   <GrCloudComputer />
   </span>
@@ -181,7 +181,7 @@ export default function Service() {
   </a>
 </div>
 
-<div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
+<div className="bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
   <span className="inline-block rounded bg-[#09090B] p-2 text-white">
   <BsSmartwatch />
   </span>
@@ -207,7 +207,7 @@ export default function Service() {
   </a>
 </div>
 
-<div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
+<div className="bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
   <span className="inline-block rounded bg-[#09090B] p-2 text-white">
   <FaGraduationCap />
   </span>
@@ -234,7 +234,7 @@ export default function Service() {
 </div>
 
 
-<div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
+<div className="bg-linear-to-r from-primary to-secondary-foreground text-transparent bg-clip-text block rounded-xl border border-[#27272a] p-8 shadow-xl transition ">
   <span className="inline-block rounded bg-[#09090B] p-2 text-white">
   <VscRemoteExplorer />
   </span>

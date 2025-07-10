@@ -4,17 +4,17 @@ import Image from "next/image";
 
 export default function Review() {
   return (
-<section className="bg-[radial-gradient(#ffffff33_1px,#000000_1px)] bg-[size:20px_20px]">
-  <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+<section className="bg-[radial-gradient(#ffffff33_1px,#000000_1px)] bg-size-[20px_20px]">
+  <div className="mx-auto max-w-(--breakpoint-xl) px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
     <h2 className="text-center text-4xl font-bold tracking-tight text-white sm:text-5xl">
       Read trusted reviews from our customers
     </h2>
 
-    <div className="mt-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+    <div className="mt-8 [column-fill:balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
       
     {/**TESTIMONY 1 */}
       <div className="mb-8 sm:break-inside-avoid">
-        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-xs sm:p-8">
           <div className="flex items-center gap-4">
             <Image
               alt=""
@@ -45,7 +45,7 @@ export default function Review() {
 
       {/**TESTIMONY 2 */}
       <div className="mb-8 sm:break-inside-avoid">
-        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-xs sm:p-8">
           <div className="flex items-center gap-4">
           <Image
               alt=""
@@ -72,7 +72,7 @@ export default function Review() {
 
       {/**TESTIMONY 3 */}
       <div className="mb-8 sm:break-inside-avoid">
-        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-xs sm:p-8">
           <div className="flex items-center gap-4">
           <Image
               alt=""
@@ -100,7 +100,7 @@ export default function Review() {
 
     {/**TESTIMONY 4 */}
       <div className="mb-8 sm:break-inside-avoid">
-        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-xs sm:p-8">
           <div className="flex items-center gap-4">
           <Image
               alt=""
@@ -129,7 +129,7 @@ export default function Review() {
 
      {/**TESTIMONY 5 */}
       <div className="mb-8 sm:break-inside-avoid">
-        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-xs sm:p-8">
           <div className="flex items-center gap-4">
           <Image
               alt=""
@@ -157,7 +157,7 @@ export default function Review() {
 
       {/**TESTIMONY 6 */}
       <div className="mb-8 sm:break-inside-avoid">
-        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-xs sm:p-8">
           <div className="flex items-center gap-4">
           <Image
               alt=""
@@ -186,7 +186,7 @@ export default function Review() {
 
         {/**TESTIMONY 7 */}
       <div className="mb-8 sm:break-inside-avoid">
-        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-xs sm:p-8">
           <div className="flex items-center gap-4">
           <Image
               alt=""
@@ -212,7 +212,7 @@ export default function Review() {
 
       {/**TESTIMONY 8 */}
       <div className="mb-8 sm:break-inside-avoid">
-        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-xs sm:p-8">
           <div className="flex items-center gap-4">
           <Image
               alt=""
@@ -240,7 +240,7 @@ export default function Review() {
 
       {/**TESTIMONY 9 */}
       <div className="mb-8 sm:break-inside-avoid">
-        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg border border-[#27272a] p-6 shadow-xs sm:p-8">
           <div className="flex items-center gap-4">
           <Image
               alt=""

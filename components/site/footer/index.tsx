@@ -9,7 +9,7 @@ const Footer = () => {
   };
   return (
     <footer className="bg-[#000000]">
-    <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+    <div className="mx-auto max-w-(--breakpoint-xl) px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
           <div className="flex justify-center text-white sm:justify-start">
@@ -170,7 +170,7 @@ const Footer = () => {
             <ul className="mt-8 space-y-4 text-sm">
               <li>
                 <a
-                  className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
+                  className="flex items-center justify-center gap-1.5 sm:ltr:justify-start sm:rtl:justify-end"
                   href="#"
                 >
                   <svg
@@ -218,7 +218,7 @@ const Footer = () => {
               
   
               <li
-                className="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
+                className="flex items-start justify-center gap-1.5 sm:ltr:justify-start sm:rtl:justify-end"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

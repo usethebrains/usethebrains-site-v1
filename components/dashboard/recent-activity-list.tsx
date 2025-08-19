@@ -68,18 +68,18 @@ const activities = [
 ];
 
 // Get badge variant based on activity type
-const getBadgeVariant = (type: string): "default" | "secondary" | "outline-solid" | "destructive" => {
+const getBadgeVariant = (type: string): "default" | "secondary" | "outline" | "destructive" => {
   switch (type) {
     case "completion":
       return "default";
     case "enrollment":
       return "secondary";
     case "review":
-      return "outline-solid";
+      return "outline";
     case "certificate":
       return "default";
     default:
-      return "outline-solid";
+      return "outline";
   }
 };
 

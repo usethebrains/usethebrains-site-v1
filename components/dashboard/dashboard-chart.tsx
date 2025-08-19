@@ -1,13 +1,13 @@
 "use client"
 
 import { useState } from "react";
-import { 
-  AreaChart, 
-  Area, 
-  XAxis, 
-  YAxis, 
-  CartesianGrid, 
-  Tooltip, 
+import {
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
   ResponsiveContainer,
   Legend
 } from "recharts";
@@ -23,7 +23,7 @@ const generateChartData = (days: number) => {
   for (let i = 0; i < days; i++) {
     const date = new Date(startDate);
     date.setDate(date.getDate() + i);
-    
+
     data.push({
       date: date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
       students: Math.floor(Math.random() * 20) + 10,
@@ -31,7 +31,7 @@ const generateChartData = (days: number) => {
       completions: Math.floor(Math.random() * 8) + 1,
     });
   }
-  
+
   return data;
 };
 
@@ -39,12 +39,12 @@ export default function DashboardChart() {
   const [timeRange, setTimeRange] = useState("30");
   const [chartData, setChartData] = useState(generateChartData(30));
   const [chartType, setChartType] = useState("students");
-  
+
   const handleRangeChange = (value: string) => {
     setTimeRange(value);
     setChartData(generateChartData(parseInt(value)));
   };
-  
+
   const getChartConfig = () => {
     switch (chartType) {
       case "revenue":
@@ -80,22 +80,22 @@ export default function DashboardChart() {
     <div className="space-y-4">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center space-x-2">
-          <Button 
-            variant={chartType === "students" ? "default" : "outline-solid"} 
+          <Button
+            variant={chartType === "students" ? "default" : "outline"}
             size="sm"
             onClick={() => setChartType("students")}
           >
             Students
           </Button>
-          <Button 
-            variant={chartType === "revenue" ? "default" : "outline-solid"} 
+          <Button
+            variant={chartType === "revenue" ? "default" : "outline"}
             size="sm"
             onClick={() => setChartType("revenue")}
           >
             Revenue
           </Button>
-          <Button 
-            variant={chartType === "completions" ? "default" : "outline-solid"} 
+          <Button
+            variant={chartType === "completions" ? "default" : "outline"}
             size="sm"
             onClick={() => setChartType("completions")}
           >
@@ -114,7 +114,7 @@ export default function DashboardChart() {
           </SelectContent>
         </Select>
       </div>
-      
+
       <div className="h-[300px]">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart
@@ -127,15 +127,15 @@ export default function DashboardChart() {
             }}
           >
             <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
-            <XAxis 
-              dataKey="date" 
-              tick={{ fontSize: 12 }} 
+            <XAxis
+              dataKey="date"
+              tick={{ fontSize: 12 }}
               tickLine={false}
               axisLine={false}
               className="text-muted-foreground"
             />
-            <YAxis 
-              tick={{ fontSize: 12 }} 
+            <YAxis
+              tick={{ fontSize: 12 }}
               tickLine={false}
               axisLine={false}
               className="text-muted-foreground"

@@ -53,7 +53,7 @@ export default function CoursePublishPage() {
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <Button
-                  variant={checklist.contentReviewed ? "default" : "outline-solid"}
+                  variant={checklist.contentReviewed ? "default" : "outline"}
                   onClick={() => setChecklist(c => ({ ...c, contentReviewed: !c.contentReviewed }))}
                 >
                   <ClipboardCheck className="mr-2 h-4 w-4" />
@@ -68,7 +68,7 @@ export default function CoursePublishPage() {
 
               <div className="flex items-center gap-4">
                 <Button
-                  variant={checklist.thumbnailUploaded ? "default" : "outline-solid"}
+                  variant={checklist.thumbnailUploaded ? "default" : "outline"}
                   onClick={() => setChecklist(c => ({ ...c, thumbnailUploaded: !c.thumbnailUploaded }))}
                 >
                   <Eye className="mr-2 h-4 w-4" />
@@ -83,7 +83,7 @@ export default function CoursePublishPage() {
 
               <div className="flex items-center gap-4">
                 <Button
-                  variant={checklist.pricingSet ? "default" : "outline-solid"}
+                  variant={checklist.pricingSet ? "default" : "outline"}
                   onClick={() => setChecklist(c => ({ ...c, pricingSet: !c.pricingSet }))}
                 >
                   <CheckCircle2 className="mr-2 h-4 w-4" />
@@ -98,7 +98,7 @@ export default function CoursePublishPage() {
 
               <div className="flex items-center gap-4">
                 <Button
-                  variant={checklist.previewEnabled ? "default" : "outline-solid"}
+                  variant={checklist.previewEnabled ? "default" : "outline"}
                   onClick={() => setChecklist(c => ({ ...c, previewEnabled: !c.previewEnabled }))}
                 >
                   <CheckCircle2 className="mr-2 h-4 w-4" />
@@ -117,9 +117,9 @@ export default function CoursePublishPage() {
             <div className="space-y-4">
               <Label>Course URL</Label>
               <div className="flex gap-2">
-                <Input 
-                  value="https://learnsphere.io/courses/web-development-bootcamp" 
-                  readOnly 
+                <Input
+                  value="https://learnsphere.io/courses/web-development-bootcamp"
+                  readOnly
                 />
                 <Button variant="outline">Copy</Button>
               </div>
@@ -138,8 +138,8 @@ export default function CoursePublishPage() {
             )}
           </CardContent>
           <CardFooter>
-            <Button 
-              className="w-full" 
+            <Button
+              className="w-full"
               disabled={!allChecksComplete || isPublishing}
               onClick={handlePublish}
             >
